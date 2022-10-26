@@ -11,6 +11,8 @@
   - name: Install httpd
     yum: pkg=httpd state=present
     
+change ownership with: sudo chown ansadmin:ansadmin /etc/ansible/httpd-variables.yml
+    
  execution command: ansible-playbook httpd-variables.yml -b
  
  To avoid exposure of my password i will encrypt variables.yml
