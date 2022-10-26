@@ -21,7 +21,7 @@ change ownership with: sudo chown ansadmin:ansadmin /etc/ansible/httpd-variables
           
 You will permission denied but still if you want to run decrypt and execute but still there will be error
 
-To view the file : ansible-vault view httpd-files.yml
+To view the file : sudo ansible-vault view httpd-files.yml
 
 To edit the file : sudo ansible-vault edit httpd-files.yml
 
